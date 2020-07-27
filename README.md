@@ -16,7 +16,7 @@
 * thal: 3 = normal; 6 = fixed defect; 7 = reversable defect
 * target: According to the discussions on the dataset,0 is for people with heart disease and 1 is no heart disease.
 
-** Results:
+## Results:
 * Chest pain, maximum heart rate achieved, and the slope of the peak exercise ST segment had lower correlations than the rest of the columns
 * Logistic Regression, KNN, Gradient Boosting, RandomForestClassifier, and SVM were the models used.
 * Achieved a ~91% score using GridSearch and cross validation on AUC scoring metric
